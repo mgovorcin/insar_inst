@@ -1,0 +1,245 @@
+List of downloaded packages (dependencies):
+
+X Window and Display Managers
+
+libXdmxp ( library for X Display)
+	web: https://www.x.org/wiki/
+	download link: http://ftp.x.org/pub/individual/lib/libXdmcp-1.1.2.tar.bz2
+
+
+General utilities and libraries
+
+Anaconda (Python package)
+	web:https://www.continuum.io/downloads
+	download link: http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
+Autoconf (tool for configuration)
+	web: https://www.gnu.org/software/autoconf/autoconf.html
+	download link: https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+Automake (tool for generating makefiles)
+	web:https://www.gnu.org/software/automake/
+	download link: https://ftp.gnu.org/gnu/automake/automake-1.15.tar.gz
+Aspell (library or independent spell checker)
+	web: http://aspell.net/
+	download link: ftp://ftp.gnu.org/gnu/aspell
+Bison (parser generator)
+	web: https://www.gnu.org/software/bison/
+	download link: https://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz
+BOOST (C++ standard library)
+	web: http://www.boost.org/
+	download link: https://sourceforge.net/projects/boost/files/boost/1.62.0/boost_1_62_0.tar.gz
+BYACC 
+	web: http://invisible-island.net/byacc/byacc.html
+	download link: http://invisible-island.net/datafiles/release/byacc.tar.gz
+CMake (tool for building package softwares)
+	web: https://cmake.org/	
+	download link: https://cmake.org/files/v3.7/cmake-3.7.0.tar.gz
+Curl (used to transfer data)
+	web: https://curl.haxx.se/
+	download link: https://curl.haxx.se/curl-7.52.1.tar.gz
+Expat (XML parser library)
+	web:http://expat.sourceforge.net/
+	download link: https://sourceforge.net/projects/expat/files/latest/download
+FFTW (library for the discrete Fourier transform)
+	web: http://www.fftw.org/
+	download link FFTW2: http://www.fftw.org/fftw-2.1.5.tar.gz
+	download link FFTW3: http://www.fftw.org/fftw-3.3.5.tar.gz
+Flex (fast lexical analyzer generator)
+	web: https://github.com/westes/flex
+	download link: https://sourceforge.net/projects/flex/files/flex-2.6.0.tar.bz2
+Gettext (translation utility)
+	web: https://www.gnu.org/software/gettext/
+	download link: https://ftp.gnu.org/pub/gnu/gettext/gettext-0.19.8.tar.gz
+Help2man (produce manula pages)
+	web: https://www.gnu.org/software/help2man/
+	download link: http://gnu.askapache.com/help2man/help2man-1.47.4.tar.xz  
+Intltool (tool for translation of file formats)
+	web: https://freedesktop.org/wiki/Software/intltool/
+	download link: https://launchpad.net/intltool/trunk/0.51.0/+download/intltool-0.51.0.tar.gz
+Lapack (Linar algebra package)
+	web: http://www.netlib.org/lapack/
+	download link: http://www.netlib.org/lapack/lapack-3.6.1.tgz
+Libssh (C library for SSHv2 and SSHv1 protocols)
+	web: https://www.libssh2.org/
+	download link: https://www.libssh2.org/download/libssh2-1.8.0.tar.gz
+Libtool (generic library support script)
+	web: https://www.gnu.org/software/libtool/
+	download link: http://mirrors.ibiblio.org/gnu/ftp/gnu/libtool/libtool-2.4.6.tar.gz
+Libxml (XML parser)
+	web: http://xmlsoft.org/
+	download link: ftp://xmlsoft.org/libxml2/
+Libxslt (xslt X library, language for XML)
+	web: http://xmlsoft.org/libxslt/
+	download link: https://git.gnome.org//browse/libxslt/
+M4 (Unix macro processor)
+	web: https://www.gnu.org/software/m4/m4.html
+	download link: ftp://ftp.gnu.org/gnu/m4/m4-1.4.17.tar.gz
+OPENSSL toolkit for TLS and SSL protocols)
+	web: https://www.openssl.org/	
+	download link:https://www.openssl.org/openssl-1.1.0c.tar.gz
+PCRE (set of functions similar to Perl 5)
+	web: http://www.pcre.org/
+	download link: ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.39.tar.gz
+PKG-config (helper tool in compiling applications and libraries)
+	web: https://www.freedesktop.org/wiki/Software/pkg-config/
+	 download link: https://pkg-config.freedesktop.org/releases/pkg-config-0.29.1.tar.gz
+SQLite (SGL database engine)
+	web: https://sqlite.org/
+	download link: https://sqlite.org/2016/sqlite-autoconf-3150200.tar.gz
+Texinfo (utility for formats)
+	web: https://www.gnu.org/software/texinfo/
+	download link: https://ftp.gnu.org/gnu/texinfo/texinfo-6.3.tar.gz
+Triangle (Delaunay triangulation)
+	web: http:https://www.cs.cmu.edu/~quake/triangle.html
+	download link: http://www.netlib.org/voronoi/triangle.zip
+wxWidgets ( library for developers)
+	web: https://www.wxwidgets.org/
+	download link: https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.0/wxWidgets-3.1.0.tar.bz2
+Xcerces (utility for XML)
+	web: https://xerces.apache.org/index.html
+	download link: http://www-us.apache.org/dist//xerces/c/3/sources/xerces-c-3.1.4.tar.gz
+XMLCOpyEditor
+	web: http://xml-copy-editor.sourceforge.net/
+	download link: https://sourceforge.net/projects/xml-copy-editor/files/xmlcopyeditor-linux/1.2.1.3/xmlcopyeditor-1.2.1.3.tar.gz/download
+Yasm 
+	web: http://yasm.tortall.net/
+	download link: http://www.tortall.net/projects/yasm/releases/yasm-1.3.0.tar.gz
+
+Compression utilities and libraries
+
+BZIP (software for compression)
+	web:http://www.bzip.org
+	download link: http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz
+SZIP (software for compression in HDF products)
+	web: https://support.hdfgroup.org/doc_resource/SZIP/
+	download link: https://support.hdfgroup.org/ftp/lib-external/szip/2.1/src/szip-2.1.tar.gz
+XZ (software for compression)
+	web:http://tukaani.org/xz/
+ZLIB (software for compression)
+	web: http://www.zlib.net/
+	download link: http://zlib.net/zlib-1.2.8.tar.gz
+
+Graphics utilities
+
+Cairo (2D graphic library)
+	web: https://cairographics.org/
+	download link: http://cairographics.org/releases/cairo-1.14.6.tar.xz
+FFMPEG (tool to create videos)
+	web: https://ffmpeg.org/
+	download link: git clone https://git.ffmpeg.org/ffmpeg.git ffmpeg
+FreeType (GLYPH and BITMAP library)
+	web: https://www.freetype.org/
+	download link: http://download.savannah.gnu.org/releases/freetype/freetype-2.7.tar.gz
+GEOTIFF (GEOTIFF library)
+	web: https://trac.osgeo.org/geotiff/
+	download link: http://download.osgeo.org/geotiff/libgeotiff/libgeotiff-1.4.2.tar.gz
+GhostScript (interpreter for PostScript and PDF)
+	web: https://www.ghostscript.com/
+	download link: https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs920/ghostscript-9.20.tar.gz
+ImageMagick
+	web: https://www.imagemagick.org/script/index.php
+	download link: http://ftp.vim.org/ftp/ImageMagick/ImageMagick-7.0.3-7.tar.gz
+JASPER (JPEG-2000 library)
+	web: https://www.ece.uvic.ca/~frodo/jasper/
+	download link: http://www.ece.uvic.ca/~mdadams/jasper/software/jasper-1.900.1.zip
+JPEG (JPEG library)
+	web: http://www.ijg.org/
+	download link: http://www.ijg.org/files/jpegsrc.v9b.tar.gz
+libPNG (PNG library)
+	web:http://www.libpng.org/pub/png/libpng.html
+	download link: http://prdownloads.sourceforge.net/libpng/libpng-1.6.26.tar.gz?download
+libTIFF (TIFF library)
+	web: http://www.libtiff.org/
+	download link: http://download.osgeo.org/libtiff/tiff-4.0.6.tar.gz
+Pixman (pixel manipulation software)
+	web: http://www.pixman.org/
+	download link: http://cairographics.org/releases/pixman-0.32.8.tar.gz
+
+GIS utilities and libaries
+
+GEOS (utility for topology)
+	web: https://trac.osgeo.org/geos/
+	download link: http://download.osgeo.org/geos/geos-3.6.0.tar.bz2
+PROJ4 (utility for cartgraphic projection)
+	web: https://trac.osgeo.org/proj/
+	download link: https://github.com/OSGeo/proj.4.git
+GDAL (translator library for vector and raster geospatial data9
+	web: http://www.gdal.org/
+	download link: http://download.osgeo.org/gdal/2.1.1/gdal211.zip
+GMT (genneric mapping tools)
+	web: http://gmt.soest.hawaii.edu/home
+	download link GMT4: ftp://ftp.soest.hawaii.edu/gmt/gmt-4.5.15-src.tar.bz2
+	download link GMT5: svn://gmtserver.soest.hawaii.edu/gmt5/
+
+Data format utilities and libraries
+
+ANT_APACHE (Java library)
+	web:https://ant.apache.org/bindownload.cgi
+	download link: http://www-eu.apache.org/dist//ant/binaries/apache-ant-1.10.0-bin.zip 
+GRIB2 (grib2 format encoder, weather data)
+	web: http://www.nco.ncep.noaa.gov/pmb/codes/GRIB2/
+	download link: http://www.ncl.ucar.edu/Download/files/g2clib-1.5.0-patch.tar.gz
+HDF4
+	web: https://support.hdfgroup.org/products/hdf4/
+	download link: https://support.hdfgroup.org/ftp/HDF/releases/HDF4.2.12/src/hdf-4.2.12.tar
+HDF5 (data model, library and file format for storing and managing data)
+	web: https://support.hdfgroup.org/HDF5/
+	download link: https://support.hdfgroup.org/ftp/HDF5/current18/src/hdf5-1.8.18.tar
+HDF-EOS2 
+	web: http://hdfeos.org/software/eosdump.php
+	download link: ftp://edhs1.gsfc.nasa.gov/edhs/hdfeos/latest_release/HDF-EOS2.19v1.00.tar.Z
+HDF-EOS5
+	web: http://newsroom.gsfc.nasa.gov/sdptoolkit/toolkit.html
+	download link: ftp://edhs1.gsfc.nasa.gov/edhs/hdfeos5/latest_release/HDF-EOS5.1.15.tar.Z
+HDFJava (Java HDF interface)
+	web: https://support.hdfgroup.org/products/java/release/download.html
+	download link: http://support.hdfgroup.org/ftp/HDF5/hdf-java/current/src/hdfview-2.13.0-Source.tar.gz
+HDFView
+	web: https://support.hdfgroup.org/products/java/hdfview/
+	download link: http://support.hdfgroup.org/ftp/HDF5/hdf-java/current/bin/HDFView-2.13.0-centos6-x64.tar.gz
+NCL_NCARG (utility for scientific data analysis and visualization)
+	web: http://www.ncl.ucar.edu/index.shtml
+	download link: https://www.earthsystemgrid.org/dataset/ncl.630.2/file.html
+NetCDF (librares for scientific data)
+	web: http://www.unidata.ucar.edu/software/netcdf/
+	download link: ftp://ftp.unidata.ucar.edu/pub/netcdf/netcdf-4.4.1.tar.gz
+Unidata (package for arithmetic manipulation)
+	web: http://www.unidata.ucar.edu/software/udunits/
+	download link: ftp://ftp.unidata.ucar.edu/pub/udunits/udunits-2.2.20.tar.gz
+
+Weather data utilities
+
+ECMWF python client
+	web:https://software.ecmwf.int/wiki/display/WEBAPI/Accessing+ECMWF+data+servers+in+batch#AccessingECMWFdataserversinbatch-python
+GRIBAPI (utility for encoding and deconding WMO FM-92 GRIB messages)
+	web: https://software.ecmwf.int/wiki/display/GRIB/Home
+	download link: https://software.ecmwf.int/wiki/display/GRIB/Releases
+PYGRIB (PYTHON GRIB reader)
+	web: https://github.com/jswhit/pygrib
+	download link: https://pypi.python.org/pypi/pygrib
+OSCAR (online services for correcting Atmosphere in RADAR-MODIS)
+	web: http://oscar.jpl.nasa.gov/
+	download link: http://oscar.jpl.nasa.gov/client/python/get_modis.py
+WRF (weather utilities)
+	web: http://wrf-model.org/index.php
+	download link: http://www2.mmm.ucar.edu/wrf/OnLineTutorial/compilation_tutorial.php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

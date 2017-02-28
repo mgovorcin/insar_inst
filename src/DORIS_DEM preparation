@@ -1,0 +1,71 @@
+######################qgis###########################################################################
+#################################################################################################
+
+NOTES how to prepare DEM file for INSAR processing in DORIS
+Edited by: Marin Govorcin
+Date and place: 11/05/2016, Miami, Fl, USA
+
+#################################################################################################
+
+Requirements for DEM preparation:
+	- QGIS or other tool for viewing, editing DEM files (use for merging DEM tiles)
+	- GDAL (use for translataion to other formats)
+	- GMT (reading grd files and writing binary DEM data for DORIS input)
+
+#################################################################################################
+
+DEM resolution:
+
+- SRTM3 (90m)
+	-- construct_dem.sh (use to download SRTM3) - http://www.osmanoglu.org/sar/60-modified-constructdemsh-for-downloading-srtm-data
+
+ -SRTM1 (30m) or DEM with higher spatial resolution
+	-- download SRTM1 tiles for your AOI on http://earthexplorer.usgs.gov/ (needs login)/DOWNLOAD BIGGER AREA
+	-- use QGIS to view merge tiles (GDAL Merge) and crop to smaller area Right_click-> SaveAS (Define window)
+	-- use GDAL:
+		- gdal_translate inputfile* -of gtiff outputfile.tiff #(optional)
+		- gdal_translate inputfile.tif -of GSBG outputfile.grd
+	--use GMT:
+		- grdmath inputfile.grd -32768 NAN = outputfile.grd #(add non-value) / can be added during the export in QGIS
+		- grd2xyz inputfile.grd -Zf > outputfile.dem # Converting Dem to binary data that DORIS can read
+ 
+ -Other DEMs (higher spatial resolution)
+	-- check projection, needs to be in WGS84 if not use GDAL/warp (QGIS) to reproject
+	-- needs to be resampled (minimum SAR image resolution) 
+		-  gdalwarp output.tif -tr X Y -r cubicspline -of gtiff newoutput.tif 
+	--use process described for SRTM1
+
+#################################################################################################
+
+Reading file to find information for DORIS input
+
+ - use GMT:
+	-grdinfo inputfile.grd
+	 -output
+	  inputfile.grd: Title: Grid originally in Surfer 6 format
+	  inputfile.grd: Command: 
+	  inputfile.grd: Remark: 
+	  inputfile.grd: Gridline node registration used
+	  inputfile.grd: Grid file format: sf (# 6) Golden Software Surfer format 6 (float)                 
+	  inputfile.grd: x_min: $$ x_max: $$ x_inc: $$ name: x nx: $$ # $$ insted of value
+	  inputfile.grd: y_min: $$ y_max: $$ y_inc: $$ name: y ny: $$
+	  inputfile.grd: z_min: $$ z_max: $$ name: z
+	  inputfile.grd: scale_factor: 1 add_offset: 0
+
+
+	 -DORIS input
+	  SAM_IN_FORMAT   real4
+	  SAM_IN_DEM      $PATH_to_your_dem/inputfile.dem
+	  SAM_IN_SIZE     ny nx               // rows cols
+	  SAM_IN_DELTA    x_inc y_inc   // in degrees       
+	  SAM_IN_UL       y_max x_min    // lat and lon of upper left
+	  SAM_IN_NODATA   -32768 /defined in step grdmath
+
+##################################################################################################
+Additional information:
+
+Examples how to use gdal:
+http://www.geos.ed.ac.uk/~smudd/TopoTutorials/html/tutorial_raster_conversion.html
+
+
+

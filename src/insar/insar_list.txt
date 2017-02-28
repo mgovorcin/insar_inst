@@ -1,0 +1,32 @@
+List of INSAR related software packages:
+
+DORIS (INSAR processor)
+	web: http://doris.tudelft.nl/
+GETORB (software that handle orbital data records ODRs)
+	web: http://www.deos.tudelft.nl/ers/precorbs/software/
+GIANT (python based time series INSAR processor)
+	web: http://earthdef.caltech.edu/projects/giant/wiki
+	download link for giant.yml: https://github.com/scottyhq/isce_notes/blob/master/Ubuntu/giant_102016.yml
+GMT5SAR (INSAR processor)
+	web1: http://topex.ucsd.edu/gmtsar/
+	web2: http://gmt.soest.hawaii.edu/projects/gmt5sar
+ISCE (python based INSAR processor)
+	web: https://winsar.unavco.org/isce.html
+PYAPS (python implementation of stratified tropospheric correction methods)
+	web: http://earthdef.caltech.edu/projects/pyaps/wiki/Main
+PYSAR (python based INSAR time series package)
+	web1: https://github.com/hfattahi/PySAR
+	web2:https://github.com/yunjunz/PySAR
+ROIPAC (software for processing SAR data)
+	web: http://roipac.org/cgi-bin/moin.cgi
+	web2: http://www.openchannelfoundation.org/projects/ROI_PAC
+SNAPHU (phase unwarping software)
+	web: https://web.stanford.edu/group/radar/softwareandlinks/sw/snaphu/
+STAMPS (time series INSAR processor)
+	web: https://homepages.see.leeds.ac.uk/~earahoo/stamps/
+TRAIN (matlab tools for correcting tropospheric delays in INSAR data)
+	web: http://davidbekaert.com/
+VARRES (variable resolution interferogram sampler)
+	web: http://earthdef.caltech.edu/projects/varres/wiki
+
+
